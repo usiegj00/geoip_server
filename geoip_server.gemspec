@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'geoip', '~> 1.1'
   s.add_dependency 'multi_json', '~> 1.3'
   s.add_dependency 'newrelic_rpm', '~> 3.4'
+  s.add_dependency 'puma'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'shoulda'
   s.add_development_dependency 'simplecov'
