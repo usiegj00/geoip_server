@@ -11,7 +11,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.2.3)
+    activesupport (4.2.4)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -21,10 +21,10 @@ GEM
     geoip (1.6.1)
     i18n (0.7.0)
     json (1.8.3)
-    minitest (5.7.0)
+    minitest (5.8.1)
     multi_json (1.11.2)
-    newrelic_rpm (3.12.1.298)
-    puma (2.12.2)
+    newrelic_rpm (3.13.2.302)
+    puma (2.14.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -60,3 +60,6 @@ DEPENDENCIES
   rake
   shoulda
   simplecov
+
+BUNDLED WITH
+   1.10.6
