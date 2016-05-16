@@ -101,6 +101,8 @@ def encode data
     :region_code => data.region_code,
     # The region name
     :region_name=> data.region_name,
+    # The real region name
+    :real_region_name => data.real_region_name,
     # The city name
     :city => data.city_name,
     # The postal code
